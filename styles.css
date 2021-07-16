@@ -39,15 +39,21 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+
 }
 
 li {
   display: inline;
+  
 }
 
 li a {
   color: black;
   text-decoration: none;
+  align-items: center;
+  float: none;
+  position: relative;
+  
 }
 
 li a:hover {
@@ -57,28 +63,57 @@ li a:hover {
 nav {
   justify-content: flex-end;
   float: right;
+  text-align:center;
 }
+
 
 #logo-google {
   position: relative;
   top: 15em;
-  left: 50em;
+  left: 45%;
  }
 
 .busqueda {
   position: relative;
   top: 17em;
-  left: 50em;
+  left: 53em;
 }
 
-.busqueda input {
-  border-radius: 10px;
+#text-search {
   width: 500px;
+  background: #fff;
+  display: inline-flex;
+  align-self: center;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+}
+
+.botones {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  margin-left: 60px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
 
 .profile {
   width: 35px;
   height: 35px;
+  border-radius: 50%;
 }
 /*Footer*/
 footer {
