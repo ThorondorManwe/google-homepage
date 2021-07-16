@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     </head>
 
     <body>
@@ -12,8 +14,8 @@
                 <ul>
                     <li><a href="#">Gmail</a></li>
                     <li><a href="#">Imágenes</a></li>
-                    <li><a href="#"><img></a></li>
-                    <li><a href="#"><img></a></li>
+                    <li><span class="material-icons">&#xE5C3;</span></li>
+                    <li><img class="profile" src="wallpaper.jpg" alt="profile"></li>
                 </ul>
             </nav>
         </header>
@@ -22,15 +24,35 @@
             <div id="logo-google">
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo">
             </div>
-            <form>
-                <input type="text" placeholder="aquí va una lupa">
+            <form class="busqueda">
+                <label for="text-search" class="material-icons"></label>
+                <input id="text-search" type="text" placeholder=&#xE8B6 >
+                <span class="material-icons">&#xE87C;</span>
+                <span class="material-icons">&#xE8B6;</span>
             </form>
         </main>
 
         <footer>
-            <div id="country-text"></div>
-            <div id="links-footer1"></div>
-            <div id="links-footer2"></div>
+            <div id="country-text">
+                <p>México</p>
+            </div>
+
+            <div id="links-footer1">
+                <ul>
+                    <li><a href="#"></a>Sobre Google</a></li>
+                    <li href="#">Publicidad</li>
+                    <li href="#">Negocios</li>
+                    <li href="#">Cómo funciona la Búsqueda</li>
+                </ul>
+            </div>
+
+            <div id="links-footer2">
+                <ul>
+                    <li href="#">Privacidad</li>
+                    <li href="#">Condiciones</li>
+                    <li href="#">Preferencias</li>
+                </ul>
+            </div>
         </footer>
 
     </body>
